@@ -9,7 +9,7 @@ This script will show you an output of:
 ![docker network ls](https://img.shields.io/badge/COMMAND-docker%20network%20ls-blue)
 
 <!--
--  Docker Images List 📷
+- Docker Images List 📷
 - Containers List 🐋
 - Docker Ps 🛠
 - Docker Ps With a 🛠🛠
