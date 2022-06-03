@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#####[docker_show.sh - simple bash script]#####
+
 #####[date and time]#####
 echo "script starts at:" 🔔
 date
