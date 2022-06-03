@@ -1,6 +1,6 @@
 # docker_show.sh - Simple bash script 🐳
 
-This script will show you:
+This script will show you an output of:
 
 ![docker images](https://img.shields.io/badge/COMMAND-docker%20images-blue)
 ![container ls](https://img.shields.io/badge/COMMAND-container%20ls-blue)
