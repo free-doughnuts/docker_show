@@ -34,7 +34,7 @@ There Are 2 more colors available inside the script:
 - Red = `#red_line="\e[0;101m${stretch_line}"` | `#echo -e "${red_line}${stop}"`
 - Green = `#green_line="\e[0;102m${stretch_line}"` | `#echo -e "${green_line}${stop}"`
 
-**INFO:** I didn't added more colors code to the table content, because i find out that Yellow color has a good contrast - in some cases it will show Brown color - it depends on your environment 
+**INFO:** I didn't added more colors code to the table content, because i find out that Yellow color has a good contrast - in some cases the colors will be a bit different - it depends on your environment 
 
 **IMPORTANT:** make sure to leave `stretch_line` and `stop="\e[0m"` uncommented - comment them out will break the colors
 
