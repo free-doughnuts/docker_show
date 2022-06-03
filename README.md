@@ -13,9 +13,10 @@ This script will show you:
 # How to use this script?
 
 1. git clone the file
-2. make the file executible by `chmod +x docker_show.sh`
-3. launch the script by the command `./docker_show.sh`
-4. take a bite from your donut and a little sip from you coffee 🍩 ☕
+2. enter to docker_show directory by `cd docker_show`
+3. make the file executible by `chmod +x docker_show.sh`
+4. launch the script by the command `./docker_show.sh`
+5. take a bite from your donut and a little sip from you coffee 🍩 ☕
 
 # Replace default colors
 
