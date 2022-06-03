@@ -41,7 +41,7 @@ There Are 2 more colors available inside the script:
 # Linux distros 🐧
 
 - this script will work on any linux distro in town
-- make sure to run this script on the docker host mchine
-- full screen recommeded
+- make sure to run this script on the docker host machine
+- for a better view, stretch your terminal a bit
 
 
