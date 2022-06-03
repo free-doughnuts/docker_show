@@ -2,11 +2,11 @@
 
 This script will show you:
 
-![docker images](https://img.shields.io/badge/COMMAND-docker%20images-blue)📷
-![container ls](https://img.shields.io/badge/COMMAND-container%20ls-blue)🐋
-![docker ps](https://img.shields.io/badge/COMMAND-docker%20ps-blue)🛠
-![docker ps -a](https://img.shields.io/badge/COMMAND-docker%20ps%20--a-blue)🛠🛠
-![docker network ls](https://img.shields.io/badge/COMMAND-docker%20network%20ls-blue)🖇
+![docker images](https://img.shields.io/badge/COMMAND-docker%20images-blue)
+![container ls](https://img.shields.io/badge/COMMAND-container%20ls-blue)
+![docker ps](https://img.shields.io/badge/COMMAND-docker%20ps-blue)
+![docker ps -a](https://img.shields.io/badge/COMMAND-docker%20ps%20--a-blue)
+![docker network ls](https://img.shields.io/badge/COMMAND-docker%20network%20ls-blue)
 
 <!--
 -  Docker Images List 📷
