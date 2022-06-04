@@ -52,5 +52,5 @@ There Are 2 more colors available inside the script:
 - make sure to run this script on the docker host machine
 - for a better view, stretch your terminal a bit
 - recommended stretch size: 140x40
-- you can verify the size by the command:`tput cols` and `tput lines`
+- you can verify the size by the command `tput cols && tput lines`
 
