@@ -54,3 +54,5 @@ There Are 2 more colors available inside the script:
 - recommended stretch size: 140x40
 - you can verify the size by the command `tput cols && tput lines`
 
+# About this repo ⬆️
+also imported to [free-doughnuts](https://gitlab.com/free-doughnuts/docker_show) account in Gitlab
