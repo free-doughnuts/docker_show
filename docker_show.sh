@@ -2,6 +2,10 @@
 
 #####[docker_show.sh - simple bash script]#####
 
+#####[clear terminal screen]#####
+clear
+
+
 #####[date and time]#####
 echo "script starts at:" 🔔
 date
@@ -47,10 +51,13 @@ printf "${BPurple}[COMMAND: docker network ls] 🖇${Color2}\n"
 docker network ls
 	echo -e "${blue_line}${stop}"
 
-printf "${BPurple}[INFO: script done in] ☕️ 🍩${Color2}\n"
+printf "${BPurple}[COMMAND: docker volume ls] 📥${Color2}\n"
+docker volume ls
+	echo -e "${blue_line}${stop}"
 
 
 #####[time elpased mark]#####
+printf "${BPurple}[INFO: script done in] ☕️ 🍩${Color2}\n"
 start=`date +%s%N`
 end=`date +%s%N`
 	echo `expr $end - $start` nanoseconds!
