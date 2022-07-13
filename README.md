@@ -7,6 +7,7 @@ This script will show you an output of:
 ![docker ps](https://img.shields.io/badge/COMMAND-docker%20ps-blue)
 ![docker ps -a](https://img.shields.io/badge/COMMAND-docker%20ps%20--a-blue)
 ![docker network ls](https://img.shields.io/badge/COMMAND-docker%20network%20ls-blue)
+![docker network ls](https://img.shields.io/badge/COMMAND-docker%20volume%20ls-blue)
 
 <!--
 - Docker Images List 📷
