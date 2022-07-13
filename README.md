@@ -2,8 +2,8 @@
 
 This script will show you an output of:
 
-![docker images](https://img.shields.io/badge/INFO-starts%20time-purple)
-![docker images](https://img.shields.io/badge/INFO-time%20elpased-purple)
+![docker images](https://img.shields.io/badge/INFO-script%20start%20time-purple)
+![docker images](https://img.shields.io/badge/INFO-time%20elapsed%20(nanoseconds)-purple)
 ![docker images](https://img.shields.io/badge/COMMAND-docker%20images-blue)
 ![container ls](https://img.shields.io/badge/COMMAND-container%20ls-blue)
 ![docker ps](https://img.shields.io/badge/COMMAND-docker%20ps-blue)
