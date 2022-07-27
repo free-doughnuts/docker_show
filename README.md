@@ -19,7 +19,7 @@ This script will show you an output of:
 - Docker Network 🖇
 -->
 
-![sceenshot](images/screenshot.png)
+![sceenshot](images/screenshot_2.png)
 
 # How to use this script?
 
