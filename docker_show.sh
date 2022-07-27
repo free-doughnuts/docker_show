@@ -1,15 +1,23 @@
 #!/bin/bash
 
-#####[docker_show.sh - simple bash script]#####
-
 #####[clear terminal screen]#####
 clear
 
+#####[show bold characters at bells area]#####
+bold=$(tput bold)
+normal=$(tput sgr0)
 
 #####[date and time]#####
-echo "script starts at:" 🔔
+echo -e "🔔${bold}[SCRIPT STARTS AT] >>>${normal} \c"
 date
 
+#####[host ip address]#####
+echo -e "🔔${bold}[HOST IP ADDRESS] >>>>${normal} \c"
+hostname -I | awk '{print $1}'
+
+#####[docker version]#####
+echo -e "🔔${bold}[DOCKER VERSION] >>>>>${normal} \c"
+docker --version | awk '{print $3, $4, $5}'
 
 #####[represent the lines color]#####
 stretch_line="\e[K"
@@ -55,10 +63,8 @@ printf "${BPurple}[COMMAND: docker volume ls] 📥${Color2}\n"
 docker volume ls
 	echo -e "${blue_line}${stop}"
 
-
-#####[time elpased mark]#####
-printf "${BPurple}[INFO: script done in] ☕️ 🍩${Color2}\n"
-start=`date +%s%N`
-end=`date +%s%N`
-	echo `expr $end - $start` nanoseconds!
-
+#####[time elapsed mark]#####
+printf "${BPurple}[INFO: script done!] ☕️ 🍩${Color2}\n"
+start=$(date +%s%N)
+end=$(date +%s%N)
+	echo "Elapsed Time: $(($end-$start)) seconds"
