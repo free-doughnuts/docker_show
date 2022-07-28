@@ -13,7 +13,12 @@ date
 
 #####[host ip address]#####
 echo -e "🔔${bold}[HOST IP ADDRESS] >>>>${normal} \c"
-hostname -I | awk '{print $1}'
+hostname -I | (awk '{print $1}'; dig +short myip.opendns.com @resolver1.opendns.com) |tr '\n' ' , '
+echo "(local & public)"
+
+#####[public address]#####
+#echo -e "🔔${bold}[PUBLIC IP ADDRESS] >>${normal} \c"
+#dig +short myip.opendns.com @resolver1.opendns.com
 
 #####[docker version]#####
 echo -e "🔔${bold}[DOCKER VERSION] >>>>>${normal} \c"
