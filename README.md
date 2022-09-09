@@ -1,6 +1,6 @@
 # docker_show.sh - Simple bash script 🐳
 
-This script will show you an output of:
+This simple script will provide an output of:
 
 ![docker images](https://img.shields.io/badge/INFO-script%20start%20time-purple)
 ![docker images](https://img.shields.io/badge/INFO-local%20&%20public%20ip-purple)
