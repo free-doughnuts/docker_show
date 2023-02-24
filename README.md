@@ -23,7 +23,7 @@ This simple script will provide an output of:
 
 ![sceenshot](images/screenshot_2.png)
 
-# How to use this script?
+# How to use docker_show ?
 
 1. git clone the file
 2. enter to docker_show directory by `cd docker_show`
