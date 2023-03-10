@@ -16,7 +16,7 @@ date
 #hostname -I | (awk '{print $1}'; dig +short myip.opendns.com @resolver1.opendns.com) |tr '\n' ' , '
 #echo "(local addr & public addr)"
 
-#####[host ip address - in arch-based distros with mate desktop]#####
+#####[host ip address - in arch-based distros]#####
 echo -e ":bell:${bold}[HOST IP ADDRESS] >>>>${normal} \c"
 nmcli device show | grep IP4.ADDRESS | head -1 | awk '{print $2}' | rev | cut -c 4- | rev | tr '\n' ' , ' && curl -s https://icanhazip.com | tr '\n' ' , '
 echo "(local addr \ public addr)"
