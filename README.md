@@ -47,7 +47,7 @@ There Are 2 more colors available inside the script:
 - Red = `#red_line="\e[0;101m${stretch_line}"` | `#echo -e "${red_line}${stop}"`
 - Green = `#green_line="\e[0;102m${stretch_line}"` | `#echo -e "${green_line}${stop}"`
 
-**INFO-1:** I didn't added more colors code to the table content, because i find out that Yellow color has a good contrast - in some cases the colors will be a bit different - it depends on your terminal color scheme settings.
+**INFO-1:** I didn't added more colors code to the table content, because i find out that Yellow color has a good contrast. In some cases the colors will be a bit different - it depends on your terminal color scheme settings.
 
 **INFO-2:** By the default the block of code that printing out the IP addresses in the docker table is defined to Ubuntu-Based Linux Systems.
 If you are working with Arch-Based Linux Systems, please edit the script, comment-out the entire block of code that belongs to Ubuntu-Based Linux Systems, and Uncomented the block of code below, that intended to Arch-Based Linux Systems.
