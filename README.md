@@ -66,4 +66,4 @@ If you are working with Arch-Based Linux Systems, please edit the script, commen
 
 # About this repo ⬆️
 
-also imported to [free-doughnuts](https://gitlab.com/free-doughnuts/docker_show) account on Gitlab
+also imported to [free-doughnuts](https://gitlab.com/free-doughnuts/docker_show) account on GitLab
