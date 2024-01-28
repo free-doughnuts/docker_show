@@ -78,3 +78,5 @@ printf "${BPurple}[INFO: script done!] ☕️ 🍩${Color2}\n"
 start=$(date +%s%N)
 end=$(date +%s%N)
 	echo "Elapsed Time: $(($end-$start)) seconds"
+
+#####[END OF SCRIPT]#####
