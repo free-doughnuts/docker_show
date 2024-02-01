@@ -27,7 +27,7 @@ This simple script will provide an output of:
 
 1. git clone the file
 2. enter to docker_show directory by `cd docker_show`
-3. make the file executible by `chmod +x docker_show.sh`
+3. make the file executible by `chmod +x DockerShow.sh`
 4. launch the script by the command `./docker_show.sh`
 5. take a bite from your donut and a little sip from you coffee 🍩 ☕
 
