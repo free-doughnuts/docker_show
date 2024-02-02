@@ -25,22 +25,22 @@ This simple script will provide an output of:
 
 # How to use docker_show ?
 
-1. git clone the file
-2. enter to docker_show directory by `cd docker_show`
-3. make the file executible by `chmod +x DockerShow.sh`
-4. launch the script by the command `./DockerShow.sh`
-5. take a bite from your donut and a little sip from you coffee 🍩 ☕
+1. Git clone the file
+2. Enter to docker_show directory by `cd docker_show`
+3. Make the file executible by `chmod +x DockerShow.sh`
+4. Launch the script by the command `./DockerShow.sh`
+5. Take a bite from your donut and a little sip from you coffee 🍩 ☕
 
 # Replace default colors
 
-- the default colors that enabled in the script are Blue lines with Yellow content
-- under `represent the lines color` commentout the default one, and uncommented the other color that you want
-- under `horizontally stretched line color` commentout the default one, and uncommented the other color that you want
-- under `table content area` make sure to replace the color code name as well
+- The default colors that enabled in the script are Blue lines with Yellow content
+- Under `represent the lines color` commentout the default one, and uncommented the other color that you want
+- Under `horizontally stretched line color` commentout the default one, and uncommented the other color that you want
+- Under `table content area` make sure to replace the color code name as well
 
 The default enabled colors are:
-- under `represent the lines color` the enabled color is `blue_line=`
-- under `horizontally stretched line color` the `echo` point to `{blue_line}`
+- Under `represent the lines color` the enabled color is `blue_line=`
+- Under `horizontally stretched line color` the `echo` point to `{blue_line}`
 
 There Are 2 more colors available inside the script:
 
@@ -57,13 +57,13 @@ If you are working with Arch-Based Linux Systems, please edit the script, commen
 
 # Linux distros 🐧
 
-- this script will work on any linux distro in town
-- make sure to run this script on the docker host machine
-- for a better view, stretch your terminal a bit
-- recommended stretch size: 140x40 (fullscreen is even a better choice)
-- you can verify the size by the command `tput cols && tput lines`
+- This script will work on any linux distro in town
+- Make sure to run this script on the docker host machine
+- Ror a better view, stretch your terminal a bit
+- Recommended stretch size: 140x40 (fullscreen is even a better choice)
+- You can verify the size by the command `tput cols && tput lines`
 
 
 # About this repo ⬆️
 
-also imported to [free-doughnuts](https://gitlab.com/free-doughnuts/docker_show) account on GitLab
+Also imported to [free-doughnuts](https://gitlab.com/free-doughnuts/docker_show) account on GitLab
