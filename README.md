@@ -1,4 +1,4 @@
-# docker_show.sh - Simple bash script 🐳
+# DockerShow.sh - Simple bash script 🐳
 
 This simple script will provide an output of:
 
@@ -63,7 +63,10 @@ If you are working with Arch-Based Linux Systems, please edit the script, commen
 - Recommended stretch size: 140x40 (fullscreen is even a better choice)
 - You can verify the size by the command `tput cols && tput lines`
 
+<!--
 
 # About this repo ⬆️
 
 Also imported to [free-doughnuts](https://gitlab.com/free-doughnuts/docker_show) account on GitLab
+
+-->
